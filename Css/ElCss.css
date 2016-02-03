@@ -1,0 +1,111 @@
+h1{
+	color: green;
+	text-align: center;
+}
+#Ingreso button a {
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	color:green ;
+
+}
+                                                               /*Ahotita no joven, aun esta en proceso XD.. buen día!!*/
+
+body {
+	background: url(../Img/Fondo.jpg);
+}
+form{
+	margin: 0 auto;
+	text-align: center;
+}
+
+* {
+	padding: 0px;
+	margin: 0pc;
+}
+#header {
+	margin: :auto;
+	width: 500px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+ul ,ol {
+	list-style: none; 
+}
+.nav li a {
+	background-color: #000;
+	color: #fff;
+	text-decoration:none;
+	padding: 10px 15xp;
+	display: block;
+	text-align: center;
+}
+.nav li a:hover{
+	background-color: #434343;
+}
+
+.nav >li {
+	float: left;
+}
+.nav li ul {
+	display:none ;
+	position: absolute;
+	min-width: 140px;
+
+}
+.nav li:hover > ul {
+	display: block;
+}
+
+
+
+
+
+/*footer*/
+#footer { color:#8b8a8a; font-size:0.75em; background:url(images/bot_bg.gif) top repeat-x ; }
+#footer span{
+	color:#79b100;
+}
+#footer .img{
+	margin:26px 0 0 30px;
+	position:absolute
+}
+#footer .indent-footer{ padding:22px 40px 0 50px;}
+#footer .indent-footer1{ margin:77px 0 0 696px; position:absolute; width:274px}
+#footer a {color:black; text-decoration:none}  
+#footer a:hover {  text-decoration:underline}
+.bot-left{ background:url(Img/LogoMenu) top left no-repeat}
+.bot-right{ background:green; height:63px}
+
+#footer ul{margin:0; padding:5px 0 0 0; list-style:none;}
+#footer ul li{ margin:0; display:inline; background:url(images/bg_li.gif) center right no-repeat; float:left}
+#footer ul li a{color:black; text-decoration:none; display:block; float:left; padding:0 23px 2px 23px} 
+#footer ul li a:hover { text-decoration: underline; }
+#footer ul .last{background:none;}
+#footer ul .last a{ padding-right:0}
+#footer ul li .current{ text-decoration:none; }
+
+
+
+
+.form-group {
+  margin-bottom: 15px;
+}
+.radio,
+.checkbox {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.radio label,
+.checkbox label {
+  min-height: 20px;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+table{
+	text-align: center;
+	margin: 0 auto;
+}
